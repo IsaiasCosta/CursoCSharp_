@@ -63,7 +63,7 @@ namespace CursoCSharp.Classes_Metodos {
 
             // retonor em cadeamento
             var calculadoraCadeada = new CalculadoraCadeada();
-            calculadoraCadeada.Somar(6).Subtrair(5).Multiplicar(6).Dividir(3).Limpar().Imprimir();
+            Console.WriteLine($"{calculadoraCadeada.Somar(6).Subtrair(5).Multiplicar(6).Dividir(3).Limpar().Imprimir()}");
         }
     }
 }
