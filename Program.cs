@@ -52,6 +52,9 @@ namespace CursoCSharp {
                 {"Parametros Nomeados -  Classes e Metodos",ParametrosNomeados.Executar },
                 {"Metodos Getters e Setters -  Classes e Metodos",GetSet.Executar },
                 {"Propriedade -  Classes e Metodos",Propriedade.Executar },
+                {"Readonly -  Classes e Metodos",AtributosReadonly.Executar },
+                {"Enum -  Classes e Metodos",MetodoEnum.Executar },
+                {"Struct -  Classes e Metodos",MetodoStruct.Executar },
 
             }) {
 
