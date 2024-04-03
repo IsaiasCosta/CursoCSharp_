@@ -56,7 +56,8 @@ namespace CursoCSharp {
                 {"Enum -  Classes e Metodos",MetodoEnum.Executar },
                 {"Struct -  Classes e Metodos",MetodoStruct.Executar },
                 {"Classes Vs Struct -  Classes e Metodos",ClassesVsStruct.Executar },
-                {"Atribuicao Por VAlor Vs Referencia -  Classes e Metodos",AtribuicaoPorValorVsRef.Executar },
+                {"Atribuicao Por Valor Vs Referencia -  Classes e Metodos",AtribuicaoPorValorVsRef.Executar },
+                {"Parametros Por Referencia Referencia -  Classes e Metodos",ParametrosPorReferencia.Executar },
 
             }) {
 
