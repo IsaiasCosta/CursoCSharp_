@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturaDeControle;
 using CursoCSharp.Classes_Metodos;
+using CursoCSharp.Colecoes;
 using System.Threading.Channels;
 
 namespace CursoCSharp {
@@ -62,6 +63,7 @@ namespace CursoCSharp {
 
                 //Coleções
                 
+                {"Array - Coleçoes",Colecoes.Array.Executar},
 
             }) {
 
