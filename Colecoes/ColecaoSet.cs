@@ -17,6 +17,7 @@ namespace CursoCSharp.Colecoes {
                 new Produto("Camisa", 55.9),
                 new Produto("Boné", 12.0),
                 new Produto("Sato",158.9),
+                new Produto("Sato",158.9),
             };
             carrinhoProduto.UnionWith(comboProduto);
             Console.WriteLine(carrinhoProduto.Count);
