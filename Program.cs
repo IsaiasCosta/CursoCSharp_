@@ -58,6 +58,10 @@ namespace CursoCSharp {
                 {"Classes Vs Struct -  Classes e Metodos",ClassesVsStruct.Executar },
                 {"Atribuicao Por Valor Vs Referencia -  Classes e Metodos",AtribuicaoPorValorVsRef.Executar },
                 {"Parametros Por Referencia Referencia -  Classes e Metodos",ParametrosPorReferencia.Executar },
+                {"ParametroPadrao -  Classes e Metodos",ParametroPadrao.Executar },
+
+                //Coleções
+                
 
             }) {
 
