@@ -5,8 +5,8 @@ using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturaDeControle;
 using CursoCSharp.Classes_Metodos;
 using CursoCSharp.Colecoes;
-using System.Threading.Channels;
 using CursoCSharp.POO.ExemploHeranca;
+using CursoCSharp.POO;
 
 namespace CursoCSharp
 {
@@ -75,8 +75,8 @@ namespace CursoCSharp
                 {"Colecão Dictionary  - Coleções",ColecaoDictionary.Executar},
 
                 //POO
-
                 {"Exemplo Herança  - POO",Humano.Executar},
+                {"Herança  - POO",Heranca.Executar},
             }) {
 
             };
