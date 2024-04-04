@@ -6,8 +6,10 @@ using CursoCSharp.EstruturaDeControle;
 using CursoCSharp.Classes_Metodos;
 using CursoCSharp.Colecoes;
 using System.Threading.Channels;
+using CursoCSharp.POO.ExemploHeranca;
 
-namespace CursoCSharp {
+namespace CursoCSharp
+{
     class Program {
         static void Main(string[] args) {
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
@@ -74,6 +76,7 @@ namespace CursoCSharp {
 
                 //POO
 
+                {"Exemplo Herança  - POO",Humano.Executar},
             }) {
 
             };
