@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-
-using CursoCSharp.Fundamentos;
-using CursoCSharp.EstruturaDeControle;
-using CursoCSharp.Classes_Metodos;
+﻿using CursoCSharp.Classes_Metodos;
 using CursoCSharp.Colecoes;
-using CursoCSharp.POO.ExemploHeranca;
+using CursoCSharp.EstruturaDeControle;
+using CursoCSharp.Fundamentos;
 using CursoCSharp.POO;
+using CursoCSharp.POO.ExemploHeranca;
 
-namespace CursoCSharp
-{
+namespace CursoCSharp {
     class Program {
         static void Main(string[] args) {
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
@@ -75,11 +71,13 @@ namespace CursoCSharp
                 {"Colecão Dictionary  - Coleções",ColecaoDictionary.Executar},
 
                 //POO
+
                 {"Exemplo Herança  - POO",Humano.Executar},
                 {"Herança  - POO",Heranca.Executar},
                 {"Construtor com This - POO",ConstrutorThis.Executar},
                 {"Encapsulamento - POO",POO.Encapsulamento.Executar},
                 {"Polimorfismo- POO",Polimorfismo.Executar},
+                {"Abstrata- POO",Abstrada.Executar},
             }) {
 
             };

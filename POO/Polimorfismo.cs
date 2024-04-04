@@ -1,5 +1,17 @@
-﻿namespace CursoCSharp.POO {
+﻿using CursoCSharp.Classes_Metodos;
 
+namespace CursoCSharp.POO {
+   // O polimorfismo em tempo de execução também é conhecido como polimorfismo baseado em herança
+   // Ou substituição de método.
+   //A herança permite herdar uma classe base em uma classe derivada e todos os membros públicos da classe
+   //Base tornam-se automaticamente membros da classe derivada. entretanto, você pode redefinir o membro da
+   //Classe base na classe derivada para fornecer uma implementação diferente da classe base. isso é chamado
+   //De substituição de método, também conhecido como polimorfismo de tempo de execução.
+
+   //Em c#, por padrão, todos os membros de uma classe são lacrados e não podem ser redefinidos na classe
+   //Derivada. use a virtualpalavra-chave com um membro da classe base para torná-la substituível e use a
+   //override palavra-chave na classe derivada para indicar que esse membro da classe base está sendo
+   //redefinido na classe derivada
 
     public class Comida {
         public double Peso;
