@@ -78,6 +78,7 @@ namespace CursoCSharp
                 {"Exemplo Herança  - POO",Humano.Executar},
                 {"Herança  - POO",Heranca.Executar},
                 {"Construtor com This - POO",ConstrutorThis.Executar},
+                {"Encapsulamento - POO",POO.Encapsulamento.Executar},
             }) {
 
             };
