@@ -79,6 +79,7 @@ namespace CursoCSharp {
                 {"Polimorfismo- POO",Polimorfismo.Executar},
                 {"Abstrata- POO",Abstrada.Executar},
                 {"Interface- POO",Interface.Executar},
+                {"Sealed- POO",MetodoSealed.Executar},
             }) {
 
             };
