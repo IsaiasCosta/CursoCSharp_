@@ -43,33 +43,36 @@ namespace CursoCSharp {
 
                 /*Classes E  Metodos*/
 
-                {"Membros - Classes e Metodos",Membros.Executar },
-                {"Construtores - Classes e Metodos",Construtores.Executar },
-                {"Metodos com Retorno -  Classes e Metodos",MetodosComRetorno.Executar },
-                {"Metodos Estatico -  Classes e Metodos",MetodosEstaticos.Executar },
-                {"Atributos Estatico -  Classes e Metodos",AtributosEstaticos.Executar },
-                {"Desafio Atributo -  Classes e Metodos",DesafioAcessarAtributo.Executar },
-                {"Parametros e Variaveis  -  Classes e Metodos",ParametrosVariaveis.Executar },
-                {"Parametros Nomeados -  Classes e Metodos",ParametrosNomeados.Executar },
-                {"Metodos Getters e Setters -  Classes e Metodos",GetSet.Executar },
-                {"Propriedade -  Classes e Metodos",Propriedade.Executar },
-                {"Readonly -  Classes e Metodos",AtributosReadonly.Executar },
-                {"Enum -  Classes e Metodos",MetodoEnum.Executar },
-                {"Struct -  Classes e Metodos",MetodoStruct.Executar },
+                {"Membros - Classes e Métodos",Membros.Executar },
+                {"Construtores - Classes e Métodos",Construtores.Executar },
+                {"Metodos com Retorno -  Classes e Métodos",MetodosComRetorno.Executar },
+                {"Metodos Estatico -  Classes e Métodos",MetodosEstaticos.Executar },
+                {"Atributos Estatico -  Classes e Métodos",AtributosEstaticos.Executar },
+                {"Desafio Atributo -  Classes e Métodos",DesafioAcessarAtributo.Executar },
+                {"Parametros e Variaveis  -  Classes e Métodos",ParametrosVariaveis.Executar },
+                {"Parametros Nomeados -  Classes e Métodos",ParametrosNomeados.Executar },
+                {"Metodos Getters e Setters -  Classes e Métodos",GetSet.Executar },
+                {"Propriedade -  Classes e Métodos",Propriedade.Executar },
+                {"Readonly -  Classes e Métodos",AtributosReadonly.Executar },
+                {"Enum -  Classes e Métodos",MetodoEnum.Executar },
+                {"Struct -  Classes e Métodos",MetodoStruct.Executar },
                 {"Classes Vs Struct -  Classes e Metodos",ClassesVsStruct.Executar },
-                {"Atribuicao Por Valor Vs Referencia -  Classes e Metodos",AtribuicaoPorValorVsRef.Executar },
-                {"Parametros Por Referencia Referencia -  Classes e Metodos",ParametrosPorReferencia.Executar },
-                {"ParametroPadrao -  Classes e Metodos",ParametroPadrao.Executar },
+                {"Atribuicao Por Valor Vs Referência -  Classes e Métodos",AtribuicaoPorValorVsRef.Executar },
+                {"Parametros Por Referencia Referência -  Classes e Métodos",ParametrosPorReferencia.Executar },
+                {"ParametroPadrao -  Classes e Métodos",ParametroPadrao.Executar },
 
                 //Coleções
                 
-                {"Array - Coleçoes",Colecoes.Array.Executar},
-                {"Lista  - Coleçoes",Colecoes.Lista.Executar},
-                {"Array de Lista  - Coleçoes",ColecaoArrayList.Executar},
-                {"Colecao Set  - Coleçoes",ColecaoSet.Executar},
-                {"Colecao Queue  - Coleçoes",ColecaoQueue.Executar},
+                {"Array - Coleções",Colecoes.Array.Executar},
+                {"Lista  - Coleções",Colecoes.Lista.Executar},
+                {"Array de Lista  - Coleções",ColecaoArrayList.Executar},
+                {"Colecao Set  - Coleções",ColecaoSet.Executar},
+                {"Colecao Queue  - Coleções",ColecaoQueue.Executar},
                 {"Igualdade  - Coleçoes",Igualdade.Executar},
-                {"Colecão Stack  - Coleçoes",ColecaoStack.Executar},
+                {"Colecão Stack  - Coleções",ColecaoStack.Executar},
+                {"Colecão Dictionary  - Coleções",ColecaoDictionary.Executar},
+
+                //POO
 
             }) {
 

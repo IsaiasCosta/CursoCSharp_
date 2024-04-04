@@ -21,19 +21,31 @@ namespace CursoCSharp.Colecoes {
             pilha.Push(3.1f);
             pilha.Push(false);
             pilha.Push('d');
+
+            Console.WriteLine("-------------------------------------------");
+
             foreach (var item in pilha) {
                 Console.WriteLine(item);
             }
-            Console.WriteLine("-------------------");
+            Console.WriteLine("--------------------------------------------");
             
             Console.WriteLine("retorna o último elemento e o remove de uma pilha", pilha.Pop());
+            foreach (var item in pilha) {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine("----------------------------------------------");
             Console.WriteLine("método retorna o último valor adicionado da pilha, mas não o remove.", pilha.Peek());
-            
+            foreach (var item in pilha) {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine("-----------------------------------------------");
             Console.WriteLine(pilha.Contains("texto"));
-            
-            
-            
-          
+            foreach (var item in pilha) {
+                Console.WriteLine(item);
+            }
+
+
+
         }
     }
 }
