@@ -60,6 +60,12 @@ namespace CursoCSharp.Colecoes {
             foreach (var valor in filmes.Values) { 
                 Console.WriteLine($" Percorer usando o valor{valor}");
             }
+            Console.WriteLine("--------------------------");
+
+            // pecorre chave e valor ao meso tempo
+            foreach (KeyValuePair<int, string> filme in filmes) {
+                Console.WriteLine($"{filme.Value} é de {filme.Key}");
+            }
         }
     }
 }
