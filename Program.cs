@@ -79,6 +79,7 @@ namespace CursoCSharp
                 {"Herança  - POO",Heranca.Executar},
                 {"Construtor com This - POO",ConstrutorThis.Executar},
                 {"Encapsulamento - POO",POO.Encapsulamento.Executar},
+                {"Polimorfismo- POO",Polimorfismo.Executar},
             }) {
 
             };
