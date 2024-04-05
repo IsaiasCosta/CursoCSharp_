@@ -2,6 +2,7 @@
 using CursoCSharp.Colecoes;
 using CursoCSharp.EstruturaDeControle;
 using CursoCSharp.Fundamentos;
+using CursoCSharp.Metodos_Funcoes;
 using CursoCSharp.POO;
 using CursoCSharp.POO.ExemploHeranca;
 
@@ -80,6 +81,8 @@ namespace CursoCSharp {
                 {"Abstrata- POO",Abstrada.Executar},
                 {"Interface- POO",Interface.Executar},
                 {"Sealed- POO",MetodoSealed.Executar},
+                //Metodos  e Funções
+                {"Lambda- Metodos e Funções ",ExemploLambda.Executar},
             }) {
 
             };
